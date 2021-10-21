@@ -10,13 +10,17 @@ public class Number {
 
         if (scan.hasNextInt()) {
             int a = scan.nextInt();
-            if (a % 2 == 0) {
-                System.out.println("even number");
-            } else {
-                System.out.println("odd number");
-            }
+            parityCheck(a);
         } else {
             System.out.println("It's not an integer");
+        }
+    }
+
+    private static void parityCheck(int a) {
+        if (a % 2 == 0) {
+            System.out.println("even number");
+        } else {
+            System.out.println("odd number");
         }
     }
 }
