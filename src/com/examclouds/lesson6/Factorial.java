@@ -13,15 +13,15 @@ public class Factorial {
 
     }
 
-    private static int factorial(int rundom) {
+    private static int factorial(int random) {
         int firstnum = 1;
-        int fukt = 1;
+        int fakt = 1;
 
-        for (int i = 0; i < rundom; i++){
-            fukt *=firstnum;
+        for (int i = 0; i < random; i++){
+            fakt *=firstnum;
             firstnum++;
 
         }
-        return fukt;
+        return fakt;
     }
 }
